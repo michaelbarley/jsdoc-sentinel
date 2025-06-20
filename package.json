@@ -1,0 +1,41 @@
+{
+  "name": "jsdoc-sentinel",
+  "displayName": "Comment Sync",
+  "version": "0.1.0",
+  "description": "VS Code extension that keeps JSDoc blocks honest.",
+  "engines": { "vscode": "^1.90.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onCommand:commentSync.hello"],
+  "main": "./dist/activation/extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "commentSync.hello", "title": "Comment Sync: Hello" }
+    ]
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -w",
+    "lint": "eslint --ext .ts src",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "prepare": "husky"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "husky": "^9.1.7",
+    "inversify": "^6.0.0",
+    "jest": "^29.5.0",
+    "lint-staged": "^15.0.0",
+    "nyc": "^15.1.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.4.0"
+  }
+}
