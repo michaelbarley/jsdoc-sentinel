@@ -1,7 +1,7 @@
 # JSDoc Sentinel
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code--Marketplace-Install-blue.png)](#)
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.png)](#)
+[![Version](https://img.shields.io/badge/version-1.0.1-brightgreen.png)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.png)](#)
 
 > **Real‑time guardrails for your TypeScript & JavaScript docs**

@@ -2,7 +2,7 @@
   "name": "jsdoc-sentinel",
   "displayName": "JSDoc Sentinel",
   "publisher": "MichaelBarley",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real-time JSDoc comment linter for VS Code—instantly flags missing, obsolete or mismatched @param, @returns and @throws tags in your TypeScript & JavaScript code.",
   "engines": {
     "vscode": "^1.90.0"
