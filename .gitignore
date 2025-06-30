@@ -26,3 +26,4 @@ Thumbs.db
 /.Trashes
 /dump_project.sh
 /project-dump.txt
+*.vsix
