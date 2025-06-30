@@ -34,7 +34,12 @@
   },
   "homepage": "https://github.com/michaelbarley/jsdoc-sentinel#readme",
   "activationEvents": [
-    "onSave:*"
+    "onLanguage:typescript",
+    "onLanguage:javascript",
+    "onSave:*.ts",
+    "onSave:*.tsx",
+    "onSave:*.js",
+    "onSave:*.jsx"
   ],
   "main": "./dist/activation/extension.js",
   "contributes": {
