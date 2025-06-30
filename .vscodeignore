@@ -44,7 +44,6 @@ nyc.config.js
 
 # ✅ Ignore output folders and build artifacts
 coverage/
-dist/
 nyc_output/
 *.vsix
 *.suo
