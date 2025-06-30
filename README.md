@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9e4ed4d2-b88d-4093-a4f8-a1032496a219"/>
+</p>
+
 # JSDoc Sentinel
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code--Marketplace-Install-blue.png)](#)
