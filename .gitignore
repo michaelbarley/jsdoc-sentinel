@@ -24,8 +24,5 @@ Thumbs.db
 *.sln
 .fseventsd/
 /.Trashes
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 /dump_project.sh
 /project-dump.txt
