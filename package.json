@@ -41,6 +41,7 @@
     "onSave:*.js",
     "onSave:*.jsx"
   ],
+  "icon": "media/icon.png",
   "main": "./dist/activation/extension.js",
   "contributes": {
     "commands": [
