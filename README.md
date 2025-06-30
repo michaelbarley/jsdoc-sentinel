@@ -10,6 +10,10 @@
 
 ---
 
+## 🎬 Live Preview
+![Screen Recording 2025-06-30 at 12 52 20](https://github.com/user-attachments/assets/2b5d885c-eae9-4677-87b9-7e60dbf36acb)
+
+
 ## 🚩 Why You’ll Love It
 
 * ⚠️ **Spot Drift Instantly**: Yellow squiggles under mismatched `@param`, `@returns`, or `@throws` tags show exactly where your docs and code disagree.
