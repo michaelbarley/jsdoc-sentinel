@@ -8,17 +8,7 @@
     "vscode": "^1.90.0"
   },
   "keywords": [
-    "jsdoc",
-    "documentation",
-    "docs",
-    "typescript",
-    "javascript",
-    "vscode",
-    "extension",
-    "lint",
-    "doc-lint",
-    "javadoc",
-    "api-docs"
+    "jsdoc", "typescript", "javascript", "linter", "documentation"
   ],
   "categories": [
     "Linters",
