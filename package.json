@@ -28,6 +28,10 @@
     "type": "git",
     "url": "https://github.com/michaelbarley/jsdoc-sentinel.git"
   },
+  "bugs": {
+    "url": "https://github.com/MichaelBarley/jsdoc-sentinel/issues"
+  },
+  "homepage": "https://github.com/MichaelBarley/jsdoc-sentinel#readme",
   "activationEvents": [
     "onCommand:jsdocSentinel.hello",
     "onCommand:jsdocSentinel.scanWorkspace",
