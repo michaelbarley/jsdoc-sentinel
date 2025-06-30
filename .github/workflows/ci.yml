@@ -12,4 +12,6 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run test:coverage
+      - name: Ensure nyc output directory exists
+        run: mkdir -p .nyc_output
       - run: npx nyc check-coverage
