@@ -29,9 +29,9 @@
     "url": "https://github.com/michaelbarley/jsdoc-sentinel.git"
   },
   "bugs": {
-    "url": "https://github.com/MichaelBarley/jsdoc-sentinel/issues"
+    "url": "https://github.com/michaelbarley/jsdoc-sentinel/issues"
   },
-  "homepage": "https://github.com/MichaelBarley/jsdoc-sentinel#readme",
+  "homepage": "https://github.com/michaelbarley/jsdoc-sentinel#readme",
   "activationEvents": [
     "onSave:*"
   ],
