@@ -1,0 +1,25 @@
+# ignore source & tests
+src/
+test/
+tests/
+**/*.spec.ts
+**/*.spec.js
+
+# ignore git & CI
+.git/
+.github/
+.gitignore
+CHANGELOG.md
+CONTRIBUTING.md
+
+# ignore dev tool scripts
+dump_project.sh
+project-dump.txt
+
+# ignore editor & husky
+.vscode/
+.husky/
+
+# lockfiles & TS configs
+package-lock.json
+tsconfig.json
