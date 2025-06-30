@@ -35,11 +35,7 @@
   "homepage": "https://github.com/michaelbarley/jsdoc-sentinel#readme",
   "activationEvents": [
     "onLanguage:typescript",
-    "onLanguage:javascript",
-    "onSave:*.ts",
-    "onSave:*.tsx",
-    "onSave:*.js",
-    "onSave:*.jsx"
+    "onLanguage:javascript"
   ],
   "icon": "media/icon.png",
   "main": "./dist/activation/extension.js",
