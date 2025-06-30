@@ -33,8 +33,6 @@
   },
   "homepage": "https://github.com/MichaelBarley/jsdoc-sentinel#readme",
   "activationEvents": [
-    "onCommand:jsdocSentinel.hello",
-    "onCommand:jsdocSentinel.scanWorkspace",
     "onSave:*"
   ],
   "main": "./dist/activation/extension.js",
