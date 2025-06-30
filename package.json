@@ -2,11 +2,19 @@
   "name": "jsdoc-sentinel",
   "displayName": "JSDoc Sentinel",
   "publisher": "MichaelBarley",
+  "author": {
+    "name": "Michael Barley"
+  },
   "version": "1.0.1",
   "description": "Instantly flags missing or mismatched JSDoc tags in JavaScript and TypeScript.",
   "engines": {
     "vscode": "^1.90.0"
   },
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "pricing": "Free",
   "keywords": [
     "jsdoc", "typescript", "javascript", "linter", "documentation"
   ],
