@@ -7,6 +7,7 @@
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code--Marketplace-Install-blue.png)](#)
 [![Version](https://img.shields.io/badge/version-1.0.1-brightgreen.png)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.png)](#)
+[![GitHub Stars](https://img.shields.io/github/stars/michaelbarley/jsdoc-sentinel?style=social)](https://github.com/michaelbarley/jsdoc-sentinel)
 
 > **Real‑time guardrails for your TypeScript & JavaScript docs**
 
