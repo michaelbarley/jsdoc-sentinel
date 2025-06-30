@@ -1,8 +1,8 @@
 # JSDoc Sentinel
 
-[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code--Marketplace-Install-blue)](#)
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)](#)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](#)
+[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code--Marketplace-Install-blue.png)](#)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.png)](#)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.png)](#)
 
 > **Real‑time guardrails for your TypeScript & JavaScript docs**
 
@@ -39,7 +39,7 @@
 **From VSIX**
 
 ```bash
-git clone https://github.com/your-org/jsdoc-sentinel.git
+git clone https://github.com/michaelbarley/jsdoc-sentinel.git
 cd jsdoc-sentinel
 npm ci && npm run build
 vsce package
@@ -74,7 +74,7 @@ Hover over each squiggle for precise messages like:
 ## 🧑‍💻 Development
 
 ```bash
-git clone https://github.com/your-org/jsdoc-sentinel.git
+git clone https://github.com/michaelbarley/jsdoc-sentinel.git
 cd jsdoc-sentinel
 npm ci
 npm run watch
