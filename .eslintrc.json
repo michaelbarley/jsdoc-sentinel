@@ -1,15 +1,61 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
   "plugins": ["@typescript-eslint", "import"],
   "extends": ["airbnb-base", "plugin:@typescript-eslint/recommended"],
-  "parserOptions": { "project": "./tsconfig.json" },
   "rules": {
-    "import/extensions": ["error", "ignorePackages", { "ts": "never" }],
+    "import/no-unresolved": ["error", { "ignore": ["vscode"] }],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never",
+        "js": "never",
+        "jsx": "never"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": true }
+    ],
+
+    "quotes": ["error", "double", { "avoidEscape": true }],
+    "comma-dangle": "off",
+    "implicit-arrow-linebreak": "off",
+    "function-paren-newline": "off",
+    "operator-linebreak": "off",
+    "nonblock-statement-body-position": "off",
+    "curly": "off",
+    "no-use-before-define": "off",
+    "no-useless-constructor": "off",
+    "no-empty-function": "off",
+    "no-plusplus": "off",
+    "no-restricted-syntax": "off",
+    "lines-between-class-members": "off",
+    "object-curly-newline": "off",
+    "import/prefer-default-export": "off",
     "class-methods-use-this": "off",
-    "no-console": "off"
+    "no-console": "off",
+
+    "no-loop-func": "off",
+    "no-continue": "off",
+    "one-var": "off",
+    "@typescript-eslint/no-unnecessary-type-assertion": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "no-useless-escape": "off"
   },
   "settings": {
-    "import/resolver": { "typescript": {} }
+    "import/resolver": {
+      "typescript": {
+        "project": "./tsconfig.json",
+        "alwaysTryTypes": true
+      }
+    }
   }
 }
