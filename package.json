@@ -5,7 +5,7 @@
   "author": {
     "name": "Michael Barley"
   },
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Instantly flags missing or mismatched JSDoc tags in JavaScript and TypeScript.",
   "engines": {
     "vscode": "^1.90.0"
@@ -33,7 +33,9 @@
   "homepage": "https://github.com/michaelbarley/jsdoc-sentinel#readme",
   "activationEvents": [
     "onLanguage:typescript",
-    "onLanguage:javascript"
+    "onLanguage:javascript",
+    "onCommand:jsdocSentinel.hello",
+    "onCommand:jsdocSentinel.scanWorkspace"
   ],
   "files": [
     "dist",
