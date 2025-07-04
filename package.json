@@ -5,7 +5,7 @@
   "author": {
     "name": "Michael Barley"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Instantly flags missing or mismatched JSDoc tags in JavaScript and TypeScript.",
   "engines": {
     "vscode": "^1.90.0"
