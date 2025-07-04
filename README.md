@@ -5,7 +5,7 @@
 # JSDoc Sentinel
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code–Marketplace-Install-blue.svg)](https://marketplace.visualstudio.com/items?itemName=MichaelBarley.jsdoc-sentinel)
-[![Version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg)](https://github.com/michaelbarley/jsdoc-sentinel/releases/tag/v1.0.1)
+[![Version](https://img.shields.io/badge/version-1.0.6-brightgreen.svg)](https://github.com/michaelbarley/jsdoc-sentinel/releases/tag/v1.0.6)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/michaelbarley/jsdoc-sentinel?style=social)](https://github.com/michaelbarley/jsdoc-sentinel)
 
